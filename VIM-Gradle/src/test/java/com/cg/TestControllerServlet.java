@@ -14,6 +14,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
+import org.junit.Ignore;
 
 import com.cg.beans.CarDTO;
 import com.cg.dao.CarDAO;
@@ -47,7 +48,7 @@ public class TestControllerServlet {
 	 */
 
 	@Test
-//	@Ignore
+	@Ignore
 	public void testProcessRequest() throws ServletException, IOException {
 //		fail("Not yet implemented");
 		
